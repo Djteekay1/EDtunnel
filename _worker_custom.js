@@ -9,7 +9,7 @@ const listProxy = [
     { path: '/incapsula', proxy: '45.60.186.91' },
     { path: '/ovh', proxy: '15.235.162.49' },
 ];
-let proxyIP;
+let proxyIP;104.21.98.30:80
 export default {
     async fetch(request, ctx) {
       try {
