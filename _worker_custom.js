@@ -53,7 +53,7 @@ async function getAllConfigVless(hostName) {
   server: ${hostName}
   port: 443
   type: vless
-  uuid: ${generateUUIDv4()}
+  uuid: ${042d37db-b49b-4511-9bc4-6ce5923e1eeb()}
   cipher: auto
   tls: true
   skip-cert-verify: true
@@ -69,7 +69,7 @@ async function getAllConfigVless(hostName) {
   server: ${hostName}
   port: 80
   type: vless
-  uuid: ${generateUUIDv4()}
+  uuid: ${042d37db-b49b-4511-9bc4-6ce5923e1eeb()}
   cipher: auto
   tls: false
   skip-cert-verify: true
